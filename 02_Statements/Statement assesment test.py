@@ -18,3 +18,6 @@ sentence = 'Print every word in this sentence that has an even number of letters
 for word in sentence.split(' '):
     if word.__len__() % 2 == 0:
         print("even")
+st = 'Create a list of the first letters of every word in this string'
+first_letters = [x[0] for x in st.split(' ')]
+print(first_letters)
